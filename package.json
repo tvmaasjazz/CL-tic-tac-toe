@@ -1,0 +1,22 @@
+{
+  "name": "cl-tic-tac-toe",
+  "version": "1.0.0",
+  "description": "Tic-tac-toe game in command line",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tvmaasjazz/CL-tic-tac-toe.git"
+  },
+  "author": "Tyler Vander Maas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tvmaasjazz/CL-tic-tac-toe/issues"
+  },
+  "homepage": "https://github.com/tvmaasjazz/CL-tic-tac-toe#readme",
+  "dependencies": {
+    "prompt": "^1.0.0"
+  }
+}

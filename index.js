@@ -2,6 +2,7 @@ class Game {
   constructor() {
     this.players = ['Player1', 'Player2'];
     this.gameBoard = [[' ', ' ', ' '], [' ', ' ', ' '], [' ', ' ', ' ']];
+    this.gameMessage = 'New game, press enter to start';
   }
 
   displayHeader() {
@@ -26,14 +27,6 @@ class Game {
         console.log('––––––––––––––-');
       }
     }
-
-    // display the row
-
-    // then line
-
-    //then row
-
-    //then last row
   }
 
   display() {
@@ -42,10 +35,11 @@ class Game {
     this.displayGameBoard();
   }
 
-  startGame() {
-
+  start() {
+    game.display();
+    prompt('ENTER>');
   }
 }
 
 const game = new Game();
-game.display();
+game.start();
